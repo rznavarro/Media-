@@ -206,7 +206,7 @@ const Chat = () => {
         }
       };
 
-      const response = await fetch('https://n8n.srv880021.hstgr.cloud/webhook/Mkt-vortexia', {
+      const response = await fetch('https://n8n.srv880021.hstgr.cloud/webhook-test/Mkt-vortexia', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
